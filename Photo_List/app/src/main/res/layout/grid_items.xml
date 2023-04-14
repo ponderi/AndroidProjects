@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.websarva.wings.android.photo_list.GridViewItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mask"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="3dp"
+    tools:ignore="MissingClass">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame_style"
+            />
+
+    </androidx.cardview.widget.CardView>
+</com.websarva.wings.android.photo_list.GridViewItem>
